@@ -1,0 +1,5 @@
+
+How to setup esp8266
+../luatool/luatool/luatool.py -p /dev/ttyUSB0 -f cfg_darbas.lua -t cfg.lua -c
+../luatool/luatool/luatool.py -p /dev/ttyUSB0 -f telnet_srv.lua -t telnet.lua -c
+../luatool/luatool/luatool.py -p /dev/ttyUSB0 -f init.lua -t init.lua -r
